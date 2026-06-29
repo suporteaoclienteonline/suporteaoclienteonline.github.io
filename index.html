@@ -864,6 +864,93 @@
             color: var(--text);
         }
 
+        /* Legal Pages */
+        .legal-pages {
+            padding: 80px 0;
+            background: var(--bg);
+        }
+
+        .legal-pages .section-header {
+            margin-bottom: 50px;
+        }
+
+        .legal-content {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .legal-card {
+            background: white;
+            border-radius: 16px;
+            padding: 35px 40px;
+            margin-bottom: 25px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .legal-card:last-child {
+            margin-bottom: 0;
+        }
+
+        .legal-card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 18px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .legal-card p {
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 15px;
+            font-size: 15px;
+        }
+
+        .legal-card p:last-child {
+            margin-bottom: 0;
+        }
+
+        .legal-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .legal-card ul li {
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+            font-size: 15px;
+        }
+
+        .legal-card ul li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 10px;
+            width: 8px;
+            height: 8px;
+            background: var(--primary);
+            border-radius: 50%;
+        }
+
+        .legal-card a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .legal-card a:hover {
+            text-decoration: underline;
+        }
+
+        .legal-card strong {
+            color: var(--text);
+        }
+
         /* Warning Box */
         .warning-box {
             background: #fef3c7;
@@ -885,6 +972,7 @@
             color: #78350f;
         }
     </style>
+<base target="_blank">
 <base target="_blank">
 </head>
 <body>
@@ -1253,11 +1341,270 @@
                             <i class="fas fa-paper-plane"></i> Enviar Mensagem
                         </button>
                         <p style="margin-top: 15px; font-size: 12px; color: var(--text-light); text-align: center;">
-                            Ao enviar, você concorda com nossa <a href="#" style="color: var(--primary);">Política de Privacidade</a>
+                            Ao enviar, você concorda com nossa <a href="#privacidade" style="color: var(--primary);">Política de Privacidade</a>
                         </p>
                     </form>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Legal Pages -->
+    <section class="legal-pages" id="privacidade">
+        <div class="container">
+            <div class="section-header">
+                <h2>Política de Privacidade</h2>
+                <p>Como protegemos e utilizamos seus dados pessoais</p>
+            </div>
+            <div class="legal-content">
+                <div class="legal-card">
+                    <h3>1. Introdução</h3>
+                    <p>A <strong>SEDONA SOCIEDADE DE CRÉDITO DIRETO S.A.</strong> (CNPJ: 57.173.208/0001-20), instituição financeira autorizada pelo Banco Central do Brasil, valoriza a privacidade e a segurança dos dados de seus clientes e usuários. Esta Política de Privacidade descreve como coletamos, usamos, armazenamos e protegemos suas informações pessoais, em conformidade com a <strong>Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018)</strong> e as normativas do Banco Central do Brasil.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>2. Dados Coletados</h3>
+                    <p>Coletamos as seguintes categorias de dados pessoais, sempre de forma adequada e necessária à prestação dos serviços:</p>
+                    <ul>
+                        <li><strong>Dados de identificação:</strong> nome completo, CPF, RG, data de nascimento, filiação, estado civil, nacionalidade.</li>
+                        <li><strong>Dados de contato:</strong> endereço residencial, e-mail, telefone celular e fixo.</li>
+                        <li><strong>Dados financeiros:</strong> renda, comprovantes de renda, informações bancárias, histórico de crédito, dados de benefício INSS (quando aplicável).</li>
+                        <li><strong>Dados de contrato:</strong> informações sobre operações de crédito, contratos firmados, histórico de pagamentos, inadimplência.</li>
+                        <li><strong>Dados de navegação:</strong> cookies, endereço IP, tipo de navegador, páginas visitadas, tempo de permanência no site.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-card">
+                    <h3>3. Base Legal para o Tratamento</h3>
+                    <p>O tratamento dos dados pessoais é realizado com base nas seguintes hipóteses legais previstas na LGPD:</p>
+                    <ul>
+                        <li><strong>Cumprimento de obrigação legal ou regulatória:</strong> conforme determinações do Banco Central do Brasil e outras normas aplicáveis ao setor financeiro.</li>
+                        <li><strong>Execução de contrato:</strong> para análise de crédito, contratação de empréstimos e gestão da relação contratual.</li>
+                        <li><strong>Legítimo interesse:</strong> para prevenção de fraudes, proteção do crédito e segurança das operações.</li>
+                        <li><strong>Consentimento:</strong> quando necessário para finalidades específicas, como envio de comunicações de marketing.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-card">
+                    <h3>4. Finalidades do Tratamento</h3>
+                    <p>Os dados pessoais são utilizados para as seguintes finalidades:</p>
+                    <ul>
+                        <li>Análise de crédito e avaliação de risco para concessão de empréstimos.</li>
+                        <li>Cadastro e gestão da relação contratual com o cliente.</li>
+                        <li>Cumprimento de obrigações legais e regulatórias (BACEN, Receita Federal, COAF).</li>
+                        <li>Prevenção e combate à lavagem de dinheiro e ao financiamento do terrorismo.</li>
+                        <li>Emissão de boletos, quitação de dívidas e renegociação de contratos.</li>
+                        <li>Atendimento ao cliente e suporte técnico.</li>
+                        <li>Envio de comunicações sobre produtos e serviços (com consentimento prévio).</li>
+                        <li>Melhoria contínua dos serviços e da experiência do usuário.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-card">
+                    <h3>5. Compartilhamento de Dados</h3>
+                    <p>Seus dados pessoais poderão ser compartilhados com:</p>
+                    <ul>
+                        <li><strong>Órgãos reguladores:</strong> Banco Central do Brasil, Receita Federal, COAF, entre outros, para cumprimento de obrigações legais.</li>
+                        <li><strong>Bureaus de crédito:</strong> Serasa, SPC, Boa Vista, para consulta e registro de histórico de crédito.</li>
+                        <li><strong>Prestadores de serviço:</strong> empresas contratadas para suporte tecnológico, processamento de dados, cobrança e recuperação de crédito, sempre sob contrato de confidencialidade.</li>
+                        <li><strong>Instituições financeiras:</strong> para liquidação de operações de crédito e transferência de recursos.</li>
+                    </ul>
+                    <p><strong>Nota:</strong> Não vendemos ou comercializamos dados pessoais a terceiros.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>6. Segurança da Informação</h3>
+                    <p>Adotamos medidas técnicas e administrativas para proteger seus dados pessoais contra acesso não autorizado, alteração, divulgação ou destruição:</p>
+                    <ul>
+                        <li>Criptografia SSL/TLS para transmissão de dados.</li>
+                        <li>Firewalls e sistemas de detecção de intrusão.</li>
+                        <li>Controle de acesso baseado em função e autenticação multifator.</li>
+                        <li>Logs de auditoria e monitoramento contínuo.</li>
+                        <li>Treinamento de colaboradores em boas práticas de segurança.</li>
+                        <li>Planos de resposta a incidentes e continuidade de negócios.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-card">
+                    <h3>7. Retenção e Exclusão de Dados</h3>
+                    <p>Os dados pessoais são mantidos pelo tempo necessário para cumprir as finalidades para as quais foram coletados, incluindo o período de retenção exigido por lei (mínimo de 5 anos para registros de operações financeiras, conforme determinação do Banco Central). Após esse período, os dados são anonimizados ou excluídos de forma segura.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>8. Direitos dos Titulares</h3>
+                    <p>Conforme a LGPD, você tem os seguintes direitos:</p>
+                    <ul>
+                        <li><strong>Confirmação:</strong> saber se seus dados estão sendo tratados.</li>
+                        <li><strong>Acesso:</strong> obter uma cópia dos dados pessoais tratados.</li>
+                        <li><strong>Correção:</strong> solicitar a retificação de dados incompletos, inexatos ou desatualizados.</li>
+                        <li><strong>Anonimização, bloqueio ou eliminação:</strong> solicitar a anonimização, bloqueio ou eliminação de dados desnecessários, excessivos ou tratados em desconformidade com a LGPD.</li>
+                        <li><strong>Portabilidade:</strong> solicitar a transferência dos dados para outro fornecedor de serviço.</li>
+                        <li><strong>Informação:</strong> saber com quais entidades públicas e privadas seus dados foram compartilhados.</li>
+                        <li><strong>Revogação do consentimento:</strong> retirar o consentimento, quando o tratamento tiver como base legal o consentimento.</li>
+                    </ul>
+                    <p>Para exercer seus direitos, entre em contato pelo e-mail: <a href="mailto:atendimento@sedonacredito.com.br">atendimento@sedonacredito.com.br</a> ou pelo formulário de contato em nosso site.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>9. Cookies e Tecnologias de Rastreamento</h3>
+                    <p>Utilizamos cookies e tecnologias similares para melhorar a experiência de navegação, personalizar conteúdo, analisar tráfego e entender o comportamento dos usuários. Os tipos de cookies utilizados incluem:</p>
+                    <ul>
+                        <li><strong>Cookies essenciais:</strong> necessários para o funcionamento do site.</li>
+                        <li><strong>Cookies de desempenho:</strong> para análise de uso e melhoria do site.</li>
+                        <li><strong>Cookies de funcionalidade:</strong> para lembrar preferências do usuário.</li>
+                    </ul>
+                    <p>Você pode gerenciar suas preferências de cookies através das configurações do seu navegador.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>10. Encarregado de Proteção de Dados (DPO)</h3>
+                    <p>A SEDONA possui um Encarregado de Proteção de Dados (DPO) responsável por atender solicitações dos titulares e orientar a empresa sobre boas práticas de proteção de dados.</p>
+                    <p><strong>Contato do DPO:</strong> <a href="mailto:atendimento@sedonacredito.com.br">atendimento@sedonacredito.com.br</a></p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>11. Alterações nesta Política</h3>
+                    <p>Esta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças em nossas práticas ou na legislação aplicável. Recomendamos que você revise esta página regularmente. A data da última atualização será sempre indicada no final do documento.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>12. Disposições Gerais</h3>
+                    <p>Esta Política de Privacidade é regida pelas leis da República Federativa do Brasil. Quaisquer controvérsias decorrentes do tratamento de dados pessoais serão dirimidas pelo foro da comarca de São Paulo/SP, salvo disposição legal em contrário.</p>
+                </div>
+            </div>
+            <p style="text-align: center; color: var(--text-light); font-size: 13px; margin-top: 30px;"><strong>Última atualização:</strong> 29 de junho de 2026</p>
+        </div>
+    </section>
+
+    <section class="legal-pages" id="termos" style="background: var(--bg-alt);">
+        <div class="container">
+            <div class="section-header">
+                <h2>Termos de Uso</h2>
+                <p>Condições para utilização dos serviços da Sedona</p>
+            </div>
+            <div class="legal-content">
+                <div class="legal-card">
+                    <h3>1. Aceitação dos Termos</h3>
+                    <p>Ao acessar e utilizar o site e os serviços da <strong>SEDONA SOCIEDADE DE CRÉDITO DIRETO S.A.</strong> (CNPJ: 57.173.208/0001-20), você concorda com os presentes Termos de Uso. Se não concordar com qualquer disposição, não utilize nossos serviços. Estes Termos podem ser atualizados periodicamente, e o uso contínuo implica aceitação das alterações.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>2. Definições</h3>
+                    <ul>
+                        <li><strong>"Sedona"</strong> ou <strong>"Empresa"</strong>: SEDONA SOCIEDADE DE CRÉDITO DIRETO S.A., instituição financeira autorizada pelo Banco Central do Brasil.</li>
+                        <li><strong>"Usuário"</strong> ou <strong>"Cliente"</strong>: pessoa física ou jurídica que acessa o site ou utiliza os serviços da Sedona.</li>
+                        <li><strong>"Serviços"</strong>: empréstimos pessoais, consignados, crédito para empresas, reestruturação de instrumentos financeiros e demais serviços financeiros oferecidos.</li>
+                        <li><strong>"Site"</strong>: o website oficial da Sedona, acessível em sedonacredito.com.br.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-card">
+                    <h3>3. Elegibilidade e Cadastro</h3>
+                    <p>Para utilizar os serviços da Sedona, o usuário deve:</p>
+                    <ul>
+                        <li>Ser pessoa física maior de 18 anos ou pessoa jurídica regularmente constituída.</li>
+                        <li>Possuir CPF ou CNPJ ativo e regular perante a Receita Federal.</li>
+                        <li>Residir no território nacional brasileiro.</li>
+                        <li>Comprovar renda ou capacidade de pagamento, conforme a política de crédito da empresa.</li>
+                        <li>Fornecer informações verdadeiras, completas e atualizadas.</li>
+                    </ul>
+                    <p>A Sedona se reserva o direito de recusar ou cancelar o cadastro de qualquer usuário que forneça informações falsas ou que não atenda aos critérios de elegibilidade.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>4. Serviços Oferecidos</h3>
+                    <p>A Sedona oferece os seguintes serviços de crédito:</p>
+                    <ul>
+                        <li><strong>Empréstimo Pessoal:</strong> crédito para pessoas físicas, com ou sem restrições de crédito, mediante análise de risco.</li>
+                        <li><strong>Empréstimo Consignado INSS:</strong> crédito para aposentados e pensionistas do INSS, com desconto direto na folha de benefício.</li>
+                        <li><strong>Crédito para Empresas:</strong> financiamento e reestruturação de instrumentos financeiros para pessoas jurídicas.</li>
+                        <li><strong>Renegociação e Quitação:</strong> reestruturação de dívidas e propostas de quitação com desconto para clientes inadimplentes.</li>
+                    </ul>
+                    <p>A aprovação de qualquer operação de crédito está sujeita à análise de crédito da Sedona e à disponibilidade de margem consignável (quando aplicável).</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>5. Simulação e Contratação</h3>
+                    <ul>
+                        <li>As simulações realizadas no site são meramente indicativas e não constituem oferta vinculante.</li>
+                        <li>As condições finais (taxa de juros, prazo, valor das parcelas) serão confirmadas apenas após análise de crédito e aprovação da operação.</li>
+                        <li>O usuário deve exigir e analisar a planilha CET (Custo Efetivo Total) antes da contratação.</li>
+                        <li>A contratação é formalizada mediante assinatura de contrato eletrônico ou físico, conforme o caso.</li>
+                        <li>A Sedona não cobra taxas antecipadas para aprovação ou liberação de crédito.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-card">
+                    <h3>6. Taxas e Encargos</h3>
+                    <p>As operações de crédito estão sujeitas a:</p>
+                    <ul>
+                        <li><strong>Juros:</strong> taxa de juros mensal conforme a política de crédito e o perfil do cliente.</li>
+                        <li><strong>IOF:</strong> Imposto sobre Operações Financeiras, conforme legislação vigente.</li>
+                        <li><strong>TAC:</strong> Taxa de Abertura de Crédito (quando aplicável).</li>
+                        <li><strong>Seguros:</strong> prêmio de seguro (quando contratado).</li>
+                        <li><strong>Outros encargos:</strong> tarifas de serviços previstas no contrato.</li>
+                    </ul>
+                    <p>Todos os custos são informados na planilha CET, conforme determinação do Banco Central do Brasil.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>7. Obrigações do Usuário</h3>
+                    <p>O usuário se compromete a:</p>
+                    <ul>
+                        <li>Fornecer informações verdadeiras, completas e atualizadas.</li>
+                        <li>Manter seus dados de cadastro sempre atualizados.</li>
+                        <li>Utilizar os serviços de forma lícita e em conformidade com a legislação.</li>
+                        <li>Não praticar fraude, falsificação ou qualquer ato ilícito.</li>
+                        <li>Pagar as parcelas nos prazos e condições contratados.</li>
+                        <li>Comunicar imediatamente a Sedona sobre qualquer alteração em seus dados ou situação financeira.</li>
+                        <li>Manter a confidencialidade de suas senhas e dados de acesso.</li>
+                    </ul>
+                    <p>O descumprimento dessas obrigações poderá resultar na suspensão dos serviços, cancelamento do contrato e adoção das medidas legais cabíveis.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>8. Propriedade Intelectual</h3>
+                    <p>Todo o conteúdo do site (textos, imagens, logotipos, marcas, software, layout) é de propriedade exclusiva da Sedona ou de seus licenciadores, protegido pelas leis de propriedade intelectual. É vedada a reprodução, distribuição, modificação ou uso não autorizado de qualquer conteúdo sem prévia autorização por escrito.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>9. Limitação de Responsabilidade</h3>
+                    <p>A Sedona não se responsabiliza por:</p>
+                    <ul>
+                        <li>Interrupções temporárias do site por motivos de manutenção, falhas técnicas ou casos de força maior.</li>
+                        <li>Danos causados por vírus, malware ou outras ameaças cibernéticas que escapem ao controle da empresa.</li>
+                        <li>Decisões de investimento ou financeiras tomadas pelo usuário com base em informações do site.</li>
+                        <li>Atos de terceiros não autorizados que acessem os dados do usuário por negligência do próprio.</li>
+                    </ul>
+                    <p>A responsabilidade da Sedona está limitada ao valor efetivamente pago pelo usuário pelos serviços, salvo dolo ou culpa grave comprovada.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>10. Resolução de Conflitos</h3>
+                    <p>Em caso de controvérsias, as partes se comprometem a buscar uma solução amigável. Caso não seja possível, fica eleito o foro da comarca de São Paulo/SP para dirimir quaisquer questões decorrentes destes Termos, com exclusão de qualquer outro, por mais privilegiado que seja.</p>
+                </div>
+
+                <div class="legal-card">
+                    <h3>11. Disposições Gerais</h3>
+                    <ul>
+                        <li>Estes Termos de Uso constituem o acordo integral entre o usuário e a Sedona.</li>
+                        <li>A tolerância de qualquer violação não constituirá renúncia ao direito de exigir o cumprimento.</li>
+                        <li>Se qualquer disposição for considerada inválida, as demais permanecerão em vigor.</li>
+                        <li>Estes Termos são regidos pelas leis da República Federativa do Brasil.</li>
+                    </ul>
+                </div>
+
+                <div class="legal-card">
+                    <h3>12. Contato</h3>
+                    <p>Para dúvidas, sugestões ou reclamações sobre estes Termos de Uso, entre em contato:</p>
+                    <ul>
+                        <li><strong>E-mail:</strong> <a href="mailto:atendimento@sedonacredito.com.br">atendimento@sedonacredito.com.br</a></li>
+                        <li><strong>Endereço:</strong> Praça Franklin Roosevelt, 183 - ANDAR 3 ESCR 31, Consolação, São Paulo/SP, CEP 01303-020</li>
+                        <li><strong>Horário de atendimento:</strong> Segunda a Sexta, das 9h às 18h</li>
+                    </ul>
+                </div>
+            </div>
+            <p style="text-align: center; color: var(--text-light); font-size: 13px; margin-top: 30px;"><strong>Última atualização:</strong> 29 de junho de 2026</p>
         </div>
     </section>
 
@@ -1286,8 +1633,8 @@
                     <ul>
                         <li><a href="#sobre">Sobre Nós</a></li>
                         <li><a href="#licencas">Licenças</a></li>
-                        <li><a href="#">Política de Privacidade</a></li>
-                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#privacidade">Política de Privacidade</a></li>
+                        <li><a href="#termos">Termos de Uso</a></li>
                         <li><a href="#">Política de Cookies</a></li>
                     </ul>
                 </div>
@@ -1323,39 +1670,4 @@
                 <p>Sedona Sociedade de Crédito Direto S.A. - CNPJ: 57.173.208/0001-20</p>
                 <p>Praça Franklin Roosevelt, 183 - ANDAR 3 ESCR 31 - Consolação - São Paulo/SP - CEP: 01303-020</p>
                 <p>Autorizada a funcionar pelo Banco Central do Brasil - Processo nº 232677</p>
-                <p style="margin-top: 15px;">O crédito deve ser usado de forma consciente. A aprovação está sujeita à análise de crédito. Exija a planilha CET previamente à contratação.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-            });
-        });
-
-        // Header scroll effect
-        window.addEventListener('scroll', () => {
-            const header = document.querySelector('header');
-            if (window.scrollY > 100) {
-                header.style.boxShadow = '0 2px 30px rgba(0,0,0,0.15)';
-            } else {
-                header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.08)';
-            }
-        });
-
-        // Form submission
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Mensagem enviada com sucesso! Nossa equipe entrará em contato em breve.');
-            this.reset();
-        });
-    </script>
-</body>
-</html>
+                <p style="margin-top: 15px
